@@ -1,0 +1,79 @@
+/* generell settings*/
+
+html {
+  font-size: 10px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(https://images.creativemarket.com/0.1.0/ps/1437481/1280/640/m1/fpnw/wm0/game_background_21-.jpg?1468084190&s=0cb19d7f2ecc1bf3fd766646f6db5309;);
+  background-position-x: center;
+  background-position-y: top;
+}
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+/*element styles*/
+
+#title {
+  size: 5rem;
+}
+.topic-selection {
+  height: 1.7rem;
+  opacity: 80%;
+  background: none;
+  font-size: 1rem;
+  color: blue;
+}
+
+#question {
+  font-size: 2rem;
+}
+#question:hover {
+  font-size: 3rem;
+  color: red;
+}
+#next {
+  height: 1.7rem;
+  opacity: 80%;
+  background: none;
+  font-size: 1rem;
+}
+#next:hover {
+  background: whitesmoke;
+  opacity: 60%;
+  color: blueviolet;
+}
+
+#restart {
+  height: 1.7rem;
+  opacity: 80%;
+  background: none;
+  font-size: 1rem;
+}
+#restart:hover {
+  background: whitesmoke;
+  opacity: 60%;
+  color: blueviolet;
+}
+.footer {
+  size: 1rem;
+  position: fixed;
+  bottom: 2rem;
+  position: center;
+}
+.footer-quote::after {
+  content: "Torsten";
+}
